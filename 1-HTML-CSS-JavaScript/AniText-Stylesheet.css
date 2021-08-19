@@ -1,0 +1,341 @@
+
+     html { 
+       height: 100%;
+       }
+
+     body {
+      font: 400 1em/1.5 "Montserrat"; 
+      background: black;  
+      text-align: center;
+      justify-content: center;
+       display: flex;
+       margin: 0;
+       font-family: 'Montserrat', sans-serif;
+     }
+     
+     button {
+       margin: 0;
+       height: 10%;
+       width: 25%;
+       border-bottom-left-radius: 20px;  padding: 5px;
+ 		   border-bottom-right-radius: 20px; padding: 5px;
+ 		   border-top-left-radius: 20px; padding: 5px;
+ 		   border-top-right-radius: 20px;
+ 		   font-size:150%;
+ 		   font-family: 'Montserrat', sans-serif;
+        color: white;   
+        background-color: black;
+        border-bottom-color: darkorange;
+        border-right-color: darkorange;
+        padding: 5px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px; 
+      
+
+     }
+    .button:hover {
+      background-color: white;
+      color: white;
+    }
+     
+     h2 { font-size: 100px;
+      height: 50px;
+      width: 80%;
+      padding: 100px;
+      font-family: 'Montserrat', sans-serif;
+    }
+     
+     .linear-wipe {
+       text-align: center;
+       
+       background: linear-gradient(to right, darkorange 20%, white 40%, black 60%, darkorange 80%, darkorange 100%);
+       background-size: 200% auto;
+       
+       color: #000;
+       background-clip: text;
+       -webkit-text-fill-color: transparent;
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       animation: shine 4s linear infinite;
+     }
+
+     p {
+      color: rgb(75, 72, 72);
+       font-weight: 25px;
+       font-size: 20px;
+       height: 12px;
+      width: 100%;
+      padding: 10px;
+      font-family: 'Montserrat', sans-serif;
+     }
+       @keyframes shine {
+         to {
+           background-position: 200% center;
+         }
+        }
+        /*welcome translate transition */
+        #welcome {
+        animation: pulse 10s;
+        animation-iteration-count: infinite;
+        }
+        #bienvenidas {
+        animation: pulse 10s;
+        animation-iteration-count: infinite;   
+        }
+        
+        #欢迎 {
+        animation: pulse 10s;
+        animation-iteration-count: infinite;   
+        }
+        
+        @keyframes pulse {
+        0% {
+        color: white ;
+        }
+        30% {
+          color:rgb(0, 0, 0);
+        }
+        50% {
+        color: white;
+        }
+        80% {
+          color: rgb(0, 0, 0);
+        }
+        100% {
+        color: white;
+        }
+        }
+        
+        #welcome:after {
+        content: "";
+        animation: spin 10s infinite;
+        animation-timing-function: linear;
+        width: 75px;
+        font-family: 'Montserrat', sans-serif;
+        }
+        #bienvenidas:after {
+        content: "";
+        animation: spin 10s infinite;
+        animation-timing-function: linear;
+        width: 75px;
+        font-family: 'Montserrat', sans-serif;
+        }
+        
+        #欢迎:after {
+        content: "";
+        animation: spin 10s infinite; 
+        animation-timing-function: linear; 
+        width: 75px;
+        font-family: 'Montserrat', sans-serif;
+        }
+        
+        @keyframes spin {
+        0% { content:"Welcome!"; }
+        55% {content:"欢迎"; }
+        100% { content:"¡Bienvenidas!"; }
+        }
+        /*second translate animation*/
+        #And {
+        content: "";
+        animation: spin 10s infinite;
+        animation-timing-function: linear;
+        width: 75px;
+        }
+        #Y {
+        content: "";
+        animation: spin 10s infinite;
+        animation-timing-function: linear;
+        width: 75px;
+        }
+        #Wo-shi {
+        content: "";
+        animation: spin 10s infinite;
+        animation-timing-function: linear;
+        width: 75px; 
+        }
+        #and:after {
+        content: "";
+        animation: spin 10s infinite;
+        animation-timing-function: linear;
+        width: 75px; 
+        }
+        #Y::after {
+        content: "";
+        animation: spin 10s infinite;
+        animation-timing-function: linear;
+        width: 75px; 
+        }
+        #Wo-shi:after {
+        content: "";
+        animation: spin 10s infinite;
+        animation-timing-function: linear;
+        width: 75px; 
+        }
+        @keyframes rotate {
+        0% { content:"And I am a software developer"; }
+        55% {content:"Y soy desarrollador de software"; }
+        100% {content:"我是一名软件开发人员"; }
+        }
+        @keyframes rotate {
+        0% {
+        color: white ;
+        }
+        30% {
+          color:rgb(64, 70, 78);
+        }
+        50% {
+        color: white;
+        }
+        80% {
+          color: rgb(64, 70, 78);
+        }
+        100% {
+        color: white;
+        }   
+    }
+        
+            
+            h1 {
+                margin: 0;
+                color: darkorange;
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+            }
+            
+            h2 {
+                margin: 0;
+                color: darkorange;
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+            }
+            h3 {
+              margin: 0;
+                color: darkorange;
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+            }
+             .topnav {
+              background-color: black;
+              position: center;
+              top: 0;
+              width: 100%;
+              font-family: 'Montserrat', sans-serif;
+           }
+            .topnav a {
+              float: left;
+              display: block;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-size: 17px;
+              font-family: 'Montserrat', sans-serif;
+            }
+            
+            /* Change the color of links on hover */
+            .topnav a:hover {
+              background-color: #ddd;
+              color: black;
+              font-family: 'Montserrat', sans-serif;
+            }
+            /* Add a color to the active/current link */
+            .topnav a.active {
+            background-color: darkorange;
+            color: white;
+            }
+            .main {
+                padding: 16px;
+                margin-bottom: 30px;
+                height: 1500px; /* Used in this example to enable scrolling */
+            }
+            
+            /* Add an active class to highlight the current page */
+            .topnav a.active {
+              background-color: darkorange;
+              color: white;
+              font-family: 'Montserrat', sans-serif;
+            }
+
+            .topnav-centered a {
+              position: auto;
+              top: 0;
+              left: 0;
+              transform: none;
+            }
+           
+            /* Right-aligned section inside the top navigation */
+            .topnav-right {
+            float: right;
+            }
+            
+            /* Hide the link that should open and close the topnav on small screens */
+            .topnav .icon {
+              display: none;
+            }
+            /* style all font awesome icons */
+            .fa {
+                padding: 20px;
+                font-size: 30px;
+                width: 50px;
+                margin: 10px;
+                text-align: center;
+                text-decoration:none;
+                position: center;
+            }
+            /* icon hover effect */
+            .fa:hover {
+                opacity: 0.7;
+            }
+            /* brand color */
+            /* FB */
+            .fa-facebook {
+                color: white;
+                padding: 25px;
+                font-size: 30px;
+                width: 20px;
+                text-align:center;
+                text-decoration: none;
+                border-radius: 50%;
+                position: center;
+            }
+            /* IG */
+            .fa-instagram {
+                
+                color: white;
+                font-weight: bold;
+                padding: 25px;
+                font-size: 30px;
+                width: 20px;
+                text-align:center;
+                text-decoration: none;
+                border-radius: 50%;
+                position: center;
+            }
+            /* linkedin */
+            .fa-linkedin {
+        
+                color: white;
+                padding: 25px;
+                font-size: 30px;
+                width: 20px;
+                text-align:center;
+                text-decoration: none;
+                border-radius: 50%;
+                position: center;
+            }
+            /* Google */
+            .fa-google {
+             
+                color: white;
+                padding: 25px;
+                font-size: 30px;
+                width: 20px;
+                text-align:center;
+                text-decoration: none;
+                border-radius: 50%;
+                border-style: inset: rgb(172, 13, 13);
+                position: center;
+        }
+            

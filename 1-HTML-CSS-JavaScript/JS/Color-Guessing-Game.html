@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width-device-width" initial scale 1.0, charset="utf-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0;
+         maximum-scale=1.0; minimum-scale=1.0; user-scalable=0;" />
+<meta charset ="uft-8">
+<title>Color Guessing Game</title>
+    </head>
+    <body> 
+        <h1>Guess the color!</h1>
+        <button type="button" onclick="runGame()">Start Game</button>
+        <script> 
+        const colors_array = ('blue', 'cyan', 'gold', 'gray', 'green', 'magenta', 'orange', 'red', 'white', 'yellow'); {
+        }
+        function runGame(); {
+        function checkGuess { ('guess', 'target');
+        }
+        const target
+let numTries = ' 0 '
+let guess = ''
+let correct = ' false '
+const targetindex = Math.floor(Math.random() * colors_array.length);
+const target = colors_array.indexOf(targetindex);
+ 
+{ 
+			colors.sort();
+            target = Math.floor(Math.random() * colors_array.length);
+            do {
+                guess = prompt(
+                    'I am thinking of one of these colors:\n\n' + colors_array +
+                     'What color is it?\n');
+                     if (guess === null);
+                        return ('');
+                        checkGuess = (' guess ', ' target ')
+                        return ('correct');
+                        let correct = ' false '
+                        if (guess= colors_array.indexOf(guess));
+                     } while(checkGuess> target)  {}      
+        	alert("Your color is alphabetically higher than mine");
+            else correct = ' true '
+        	alert("Congrats! You have guessed the right color\n\n" + "You took" + " " +count + " "+ "no. of guesses");
+                    } 
+                    return correct 
+                    numTries = (0 = ++1);
+                    document.body.style.background = guess;
+                    array.join();
+                
+            }  (!correct);
+       
+            function check_guess(){
+
+        	let target= colors.indexOf(guess);
+        	if(checkGuess < 0)
+        	alert("Please Enter a valid choice");
+        		       	
+
+        	else if(checkGuess> target)        
+        	alert("Your color is alphabetically higher than mine");
+        		        	
+
+        	else if(checkGuess< target) 
+        	alert("Your color is alphabetically lower than mine");
+
+        	else{
+        	alert("Congrats! You have guessed the right color\n\n" + "You took" + " " +count + " "+ "no. of guesses");
+        		return false;	
+
+        	}
+        	return true;
+        }
+</script>
+    </body>
